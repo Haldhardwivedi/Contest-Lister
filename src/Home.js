@@ -1,9 +1,11 @@
 import './Home.css';
 import React from 'react';
+import Navbar from "./Navbar";
 
 function Home() {
     return (
      <>
+     <Navbar/>
      <div className='row '>
        <p className='home col-sm-4'>
          Hey Welcome to contest Lister

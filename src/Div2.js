@@ -6,7 +6,7 @@ let link  = 'http://codeforces.com/contest/';
 function Div2() {
   const [data, setData] = React.useState([]);
 
-  React.useEffect(() =>  {
+  React.useEffect((data) =>  {
     const url = "https://codeforces.com/api/contest.list";
     fetch(url)
       .then((response) => response.json())
@@ -15,7 +15,7 @@ function Div2() {
         console.log(data);
       })
       .catch((error) => console.log(error));
-  });
+  },[]);
   
   return (
     <>
