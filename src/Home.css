@@ -1,0 +1,10 @@
+.home{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    text-align: center;
+  }
