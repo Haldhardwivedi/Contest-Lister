@@ -6,7 +6,7 @@ import Div1 from "./Div1"
 import Div2 from "./Div2"
 import Div3 from "./Div3"
 import HOME from "./Home"
-import Footer from './Footer';
+
 function App() {
   return (
     <div className="App">
